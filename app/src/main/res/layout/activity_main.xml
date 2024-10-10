@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logo_256x256"></ImageView>
+
+    <TextView
+        android:id="@+id/txv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primera App"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/txv_subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculo de peso ideal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="12dp"></TextView>
+
+    <EditText
+        android:id="@+id/edt_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:id="@+id/edt_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su peso actual"
+        android:inputType="numberDecimal"></EditText>
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"></Button>
+
+    <TextView
+        android:id="@+id/txv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"></TextView>
+
+</LinearLayout>

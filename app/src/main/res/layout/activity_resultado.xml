@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ResultadoActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logo_256x256"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primera App"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txv_subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculo de peso ideal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/txv_pesoideal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Tu peso ideal es:"/>
+
+    <TextView
+        android:id="@+id/txv_estado_peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Estado de peso:"/>
+
+    <ImageView
+        android:id="@+id/img_estado_peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/estado_peso_image"/>
+</LinearLayout>
+
